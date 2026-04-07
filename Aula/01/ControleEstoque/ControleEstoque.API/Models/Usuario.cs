@@ -30,30 +30,6 @@ namespace ControleEstoque.API.Models
 
     }
 
-    public class Cliente : Usuario
-    {
-        // Propriedades específicas para Cliente, se necessário
-        [StringLength(14)]
-        public string CPF { get; set; } // Exemplo de propriedade específica para Cliente
-
-    }
-
-
-    public class Caixa : Usuario
-    {
-        // Propriedades específicas para Caixa, se necessário
-        [StringLength(50)]
-        public string Turno { get; set; } // Exemplo de propriedade específica para Caixa
-    }
-
-
-    public class Gerente : Usuario
-    {
-        // Propriedades específicas para Gerente, se necessário
-        [StringLength(50)]
-        public string Setor { get; set; } // Exemplo de propriedade específica para Gerente
-
-    }   
 
 
 }
