@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ControleEstoque.API.Models
 {
-    public class IntemPedido
+    public class ItemPedido
     {
         [Key]
         public int Id { get; set; }

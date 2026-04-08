@@ -12,7 +12,7 @@ namespace ControleEstoque.API.Models
         [Required, StringLength(20) ]
         public string Status { get; set; } // Ex: "Aberto", "Fechado", "Suspenso..."
 
-        public ICollection<IntemPedido> ItensPedido { get; set; } = new List<IntemPedido>(); // Relação com itens de pedido
+        public ICollection<ItemPedido> ItensPedido { get; set; } = new List<ItemPedido>(); // Relação com itens de pedido
 
 
 

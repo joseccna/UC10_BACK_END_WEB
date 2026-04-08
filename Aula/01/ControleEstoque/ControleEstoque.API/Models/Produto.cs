@@ -22,7 +22,7 @@ namespace ControleEstoque.API.Models
         public int FornecedorId { get; set; } // Chave estrangeira para o fornecedor
         public Fornecedor Fornecedor { get; set; } // Relação com o fornecedor
 
-        public ICollection<IntemPedido> ItensPedido { get; set; } = new List<IntemPedido>(); // Relação com itens de pedido
+        public ICollection<ItemPedido> ItensPedido { get; set; } = new List<ItemPedido>(); // Relação com itens de pedido
 
     }
 }
