@@ -4,30 +4,44 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ControleEstoque.API.Services
 {
-    public class PedidoService : IPedidoService
-    {
-
-        private readonly AppDbContext _context;
-
-        public PedidoService(AppDbContext context)
+    
+    
+        public class PedidoService : IPedidoService
         {
-            _context = context;
-        }
+            private readonly AppDbContext _context;
 
-        public Task<Pedido> CriarPedidoAsync(int clienteId, List<ItemPedido> itens)
-        {
-            throw new NotImplementedException();
-        }
+            public PedidoService(AppDbContext context)
+            {
+                _context = context;
+            }
 
-        public Task<IEnumerable<Pedido>> ListarPedidosDoClienteAsync(int clienteId)
-        {
-            throw new NotImplementedException();
-        }
+            public async Task<Pedido> CriarPedidoAsync(int clienteId, List<ItemPedido> itens)
+            {
+                var pedido = new Pedido
+                {
+                    ClienteId = clienteId,
+                    DataPedido = DateTime.UtcNow,
+                    Status = "Aberto",
+                    ItensPedido = itens
+                };
 
-        public Task<Pedido?> ObterPedidoComDetalhesAsync(int pedidoId)
-        {
-            // Está retornando apenas o pedido pruro, sem os 'detalhes' necessários.
-            return _context.Pedidos.FirstOrDefaultAsync(p => p.Id == pedidoId);
+                _context.Pedidos.Add(pedido);
+                await _context.SaveChangesAsync();
+                return pedido;
+            }
+
+            public Task<IEnumerable<Pedido>> ListarPedidosDoClienteAsync(int clienteId)
+            {
+                throw new NotImplementedException();
+            }
+
+            public Task<Pedido?> ObterPedidoComDetalhesAsync(int pedidoId)
+            {
+
+            //incluir a busca dos dados do cliente também
+            return _context.Pedidos.Include(p => p.ItensPedido).ThenInclude(i => i.Produto).Include(p =>p.Cliente).FirstOrDefaultAsync(p => p.Id == pedidoId);
+                
         }
-    }
+        }
+    
 }

@@ -7,20 +7,16 @@
       "RelativeMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\uc10_back_end_web\\aula\\01\\controleestoque\\controleestoque.api\\dtos\\detalhespedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\dtos\\detalhespedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\uc10_back_end_web\\aula\\01\\controleestoque\\controleestoque.api\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\services\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\uc10_back_end_web\\aula\\01\\controleestoque\\controleestoque.api\\services\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\services\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\uc10_back_end_web\\aula\\01\\controleestoque\\controleestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|c:\\users\\jose.fncarvalho1\\documents\\curso\\uc10_back_end_web\\aula\\01\\controleestoque\\controleestoque.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2174BEC6-AA4E-496F-9C94-B4A3AD00A344}|ControleEstoque.API\\ControleEstoque.API.csproj|solutionrelative:controleestoque.api\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,26 +30,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
-              "RelativeDocumentMoniker": "ControleEstoque.API\\Program.cs",
-              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
-              "RelativeToolTip": "ControleEstoque.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DetalhesPedidoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\DetalhesPedidoDTO.cs",
+              "RelativeDocumentMoniker": "ControleEstoque.API\\DTOs\\DetalhesPedidoDTO.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\DetalhesPedidoDTO.cs",
+              "RelativeToolTip": "ControleEstoque.API\\DTOs\\DetalhesPedidoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T23:53:16.071Z",
+              "WhenOpened": "2026-04-09T23:22:40.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PedidoService.cs",
               "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\PedidoService.cs",
               "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\PedidoService.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\PedidoService.cs",
               "RelativeToolTip": "ControleEstoque.API\\Services\\PedidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T00:29:16.542Z",
               "EditorCaption": ""
@@ -66,35 +62,22 @@
               "RelativeDocumentMoniker": "ControleEstoque.API\\Controllers\\PedidosController.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\PedidosController.cs",
               "RelativeToolTip": "ControleEstoque.API\\Controllers\\PedidosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T00:09:24.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IPedidoService.cs",
-              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IPedidoService.cs",
-              "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\IPedidoService.cs",
-              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IPedidoService.cs",
-              "RelativeToolTip": "ControleEstoque.API\\Services\\IPedidoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
+              "RelativeDocumentMoniker": "ControleEstoque.API\\Program.cs",
+              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Program.cs",
+              "RelativeToolTip": "ControleEstoque.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T23:24:09.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Models\\Cliente.cs",
-              "RelativeDocumentMoniker": "ControleEstoque.API\\Models\\Cliente.cs",
-              "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Models\\Cliente.cs",
-              "RelativeToolTip": "ControleEstoque.API\\Models\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T00:16:45.004Z",
+              "WhenOpened": "2026-04-09T22:27:43.422Z",
               "EditorCaption": ""
             }
           ]

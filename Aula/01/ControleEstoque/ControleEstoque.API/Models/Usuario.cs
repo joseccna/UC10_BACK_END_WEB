@@ -4,9 +4,7 @@ namespace ControleEstoque.API.Models
 {
     public enum PerfilUsuario
     {
-        Cliente,
-        Caixa,
-        Gerente,
+        Cliente, Caixa, Gerente,
     }
 
 
