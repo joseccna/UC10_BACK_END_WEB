@@ -24,6 +24,7 @@ namespace ControleEstoque.API.Controllers
             var fornecedores = await _fornecedorService.ObterTodosAsync();
             return Ok(fornecedores);
         }
+
         [HttpGet("{id}")]//rota para obter um fornecedor por id
         public async Task<IActionResult> GetById(int id)
         {
@@ -45,10 +46,12 @@ namespace ControleEstoque.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] AtualizarFornecedorDTO dto)
         {
+            if (id != dto.Id) return BadRequest();
+
             var exist = await _fornecedorService.ObterPorIdAsync(id);
             if (exist == null) return NotFound();
 
-            await _fornecedorService.AtualizarAsync(id, dto);
+            await _fornecedorService.AtualizarAsync( dto);
             return NoContent();
 
         }

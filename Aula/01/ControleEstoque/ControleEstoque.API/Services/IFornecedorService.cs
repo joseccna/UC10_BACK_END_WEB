@@ -11,10 +11,9 @@ namespace ControleEstoque.API.Services
 
         Task<FornecedorDTO> CriarAsync(CriarFornecedorDTO dto);
 
-        Task AtualizarAsync(int id, AtualizarFornecedorDTO dto);
 
         Task RemoverAsync(int id);
-
+        Task AtualizarAsync(AtualizarFornecedorDTO dto);
     }
 
 }

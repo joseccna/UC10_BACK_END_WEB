@@ -19,6 +19,8 @@ builder.Services.AddScoped<IPedidoService, PedidoService>();
 //Registrar o serviço de fornecedor para injeção de dependência, permitindo que os controladores e outros serviços possam utilizar a interface IFornecedorService para acessar as funcionalidades relacionadas aos fornecedores, promovendo uma arquitetura mais modular e facilitando a manutenção do código
 builder.Services.AddScoped<IFornecedorService, FornecedorService>();
 
+builder.Services.AddScoped<IContaReceber, ContaReceberService>();
+
 
 
 // Add services to the container.

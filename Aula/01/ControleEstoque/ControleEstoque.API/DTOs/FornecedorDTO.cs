@@ -25,6 +25,7 @@ namespace ControleEstoque.API.DTOs
 
     public class AtualizarFornecedorDTO
     {
+        public int Id { get; set; }
         public string NomeFantasia { get; set; }
     }
 

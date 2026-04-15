@@ -24,7 +24,9 @@ namespace ControleEstoque.API.Data
 
         public DbSet<Pedido> Pedidos { get; set; }
 
-        public DbSet<ItemPedido> IntemPedidos { get; set; }
+        public DbSet<ItemPedido> ItemPedidos { get; set; }
+
+        public DbSet<ContaReceber> ContaRecebers { get; set; }
 
 
 
