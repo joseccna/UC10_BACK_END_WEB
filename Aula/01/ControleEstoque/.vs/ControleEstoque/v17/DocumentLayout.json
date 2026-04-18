@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "ControleEstoque.API\\DTOs\\ProdutoDTO.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\DTOs\\ProdutoDTO.cs",
               "RelativeToolTip": "ControleEstoque.API\\DTOs\\ProdutoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wCEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T22:35:49.963Z",
               "EditorCaption": ""
@@ -49,7 +49,7 @@
               "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\IProdutoService.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\IProdutoService.cs",
               "RelativeToolTip": "ControleEstoque.API\\Services\\IProdutoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T22:46:48.279Z",
               "EditorCaption": ""
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "ControleEstoque.API\\Controllers\\ProdutosController.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Controllers\\ProdutosController.cs",
               "RelativeToolTip": "ControleEstoque.API\\Controllers\\ProdutosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T23:10:33.946Z",
               "EditorCaption": ""
@@ -75,7 +75,7 @@
               "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\ProdutoService.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\ProdutoService.cs",
               "RelativeToolTip": "ControleEstoque.API\\Services\\ProdutoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T22:55:18.261Z",
               "EditorCaption": ""

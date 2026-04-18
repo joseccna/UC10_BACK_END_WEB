@@ -1,5 +1,6 @@
 ﻿using ControleEstoque.API.Data;
 using ControleEstoque.API.DTOs;
+using ControleEstoque.API.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ControleEstoque.API.Services
@@ -12,6 +13,33 @@ namespace ControleEstoque.API.Services
         {
             _context = context;
         }
+
+        public Task AtualizarProdutoDtoAsync(AtualizarProdutoDTO dto)
+        {
+            throw new NotImplementedException();
+        }
+
+
+        public async Task<ProdutoDTO> CriarProdutoAsync(CriaProdutoDTO dto)
+        {
+            var produto = new Produto()
+            {
+                Nome = dto.Nome,
+                Preco = dto.Preco,
+                QuantidadeEstoque = dto.QuantidadeEstoque,
+                FornecedorId = dto.FornecedorId,
+
+            };
+
+            // E SE O FORNECDOR NÃO EXISTIR? NO BANDO DE DADOS
+             _context.Produtos.Add(produto);
+             _context.SaveChanges();
+
+            return await ObterPorIdAsync(produto.Id);
+
+
+        }
+
 
         public async Task<ProdutoDTO?> ObterPorIdAsync(int id)
         {
@@ -34,12 +62,36 @@ namespace ControleEstoque.API.Services
             };
         }
 
-        public Task<IEnumerable<ProdutoDTO>> ObterTodosAsync()
+        public async Task<IEnumerable<ProdutoDTO>> ObterTodosAsync()
         {
-            throw new NotImplementedException();
+            return await _context.Produtos
+                .Select(p => new ProdutoDTO
+                {
+                    Id = p.Id,
+                    Nome = p.Nome,
+                    Preco = p.Preco,
+                    QuantidadeEstoque = p.QuantidadeEstoque,
+                    Fornecedor = new FornecedorDTO
+                    {
+                        Id = p.Fornecedor.Id,
+                        CNPJ = p.Fornecedor.CNPJ,
+                        NomeFantasia = p.Fornecedor.NomeFantasia
+                    }
+
+                })
+                .ToListAsync();
+
         }
 
-
+        public async Task RemoverAsync(int id)
+        {
+            var produto = await _context.Produtos.FindAsync(id);
+            if (produto != null)
+            {
+                _context.Produtos.Remove(produto);
+                await _context.SaveChangesAsync();
+            }
+        }
     }
 
 }
