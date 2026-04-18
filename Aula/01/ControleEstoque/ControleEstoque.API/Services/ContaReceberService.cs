@@ -22,7 +22,7 @@ namespace ControleEstoque.API.Services
                 entity.Valor = dto.Valor;
                 entity.DataVencimento = dto.DataVencimento;
 
-
+                _context.ContaRecebers.Update(entity);
                 await _context.SaveChangesAsync();
             }
         }
@@ -35,6 +35,7 @@ namespace ControleEstoque.API.Services
                 Descricao = dto.Descricao,
                 Valor = dto.Valor,
                 DataVencimento = dto.DataVencimento,
+                DataPagamento = dto.DataPagamento,
                 Status = dto.Status
             };
 
