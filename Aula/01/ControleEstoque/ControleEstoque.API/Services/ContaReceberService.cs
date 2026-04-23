@@ -16,11 +16,21 @@ namespace ControleEstoque.API.Services
 
         async Task IContaReceber.AtualizarAsync(AtualizarContaReceberDTO dto)
         {
-            var entity = await _context.ContaRecebers.FindAsync(dto.Id);
+            var entity = await _context.ContaRecebers.FirstOrDefaultAsync(r => r.Id == dto.Id);
             if (entity != null)
             {
+                var clienteExiste = await _context.Clientes.AnyAsync(c => c.Id == dto.ClienteId);
+                if (!clienteExiste)
+                {
+                    throw new ArgumentException("O cliente informado não existe.");
+                }
+
+                entity.Descricao = dto.Descricao;
                 entity.Valor = dto.Valor;
                 entity.DataVencimento = dto.DataVencimento;
+                entity.DataPagamento = dto.DataPagamento;
+                entity.Status = dto.Status;
+                entity.ClienteId = dto.ClienteId;
 
                 _context.ContaRecebers.Update(entity);
                 await _context.SaveChangesAsync();
@@ -36,7 +46,9 @@ namespace ControleEstoque.API.Services
                 Valor = dto.Valor,
                 DataVencimento = dto.DataVencimento,
                 DataPagamento = dto.DataPagamento,
-                Status = dto.Status
+                Status = dto.Status,
+                ClienteId = dto.ClienteId
+
             };
 
             _context.ContaRecebers.Add(contaReceber);
@@ -49,7 +61,9 @@ namespace ControleEstoque.API.Services
                 Valor = contaReceber.Valor,
                 DataVencimento = contaReceber.DataVencimento,
                 DataPagamento = contaReceber.DataPagamento,
-                Status = contaReceber.Status
+                Status = contaReceber.Status,
+                ClienteId = contaReceber.ClienteId
+
             };
 
         }
@@ -67,7 +81,9 @@ namespace ControleEstoque.API.Services
                 Valor = contaReceber.Valor,
                 DataVencimento = contaReceber.DataVencimento,
                 DataPagamento = contaReceber.DataPagamento,
-                Status = contaReceber.Status
+                Status = contaReceber.Status,
+                ClienteId = contaReceber.ClienteId
+
 
             };
 
@@ -81,7 +97,9 @@ namespace ControleEstoque.API.Services
                 Valor = r.Valor,
                 DataVencimento = r.DataVencimento,
                 DataPagamento = r.DataPagamento,
-                Status = r.Status
+                Status = r.Status,
+                ClienteId = r.ClienteId
+
 
             }).ToListAsync();
         }

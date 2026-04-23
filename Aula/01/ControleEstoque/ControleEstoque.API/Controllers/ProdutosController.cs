@@ -23,6 +23,15 @@ namespace ControleEstoque.API.Controllers
             return Ok(produtoCriado);
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] AtualizarProdutoDTO dto)
+        {
+            if(id !=dto.Id) return BadRequest("Id da rota  difere do is do produto.");
+
+            await _produtoService.AtualizarProdutoDtoAsync(dto);
+            return NoContent(); // é um tipo de ok, mas sem conteúdo, pois a atualização não retorna um objeto atualizado, apenas indica que a operação foi bem-sucedida.
+        }
+
         [HttpGet]
         public async Task<IActionResult> GetAll()
         { 

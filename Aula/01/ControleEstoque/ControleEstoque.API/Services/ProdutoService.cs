@@ -14,14 +14,57 @@ namespace ControleEstoque.API.Services
             _context = context;
         }
 
-        public Task AtualizarProdutoDtoAsync(AtualizarProdutoDTO dto)
+        public async Task AtualizarProdutoDtoAsync(AtualizarProdutoDTO dto)
         {
-            throw new NotImplementedException();
+            //buscar essa entidade no banco
+            //se ela existir,
+            //verificar se o fornecedor informado existe
+            //Atualizar os dados da entidade com os dados do DTO
+
+
+            var produto = await _context.Produtos.FirstOrDefaultAsync(p => p.Id == dto.Id);
+
+            if (produto !=null)
+              {
+                var fornecedorExistente = await _context.Fornecedores.FirstOrDefaultAsync(f => f.Id == dto.FornecedorId);
+
+                if (fornecedorExistente == null)
+                {
+                        throw new ArgumentException("O fornecedor informado não existe.");
+                  }
+
+                produto.Nome = dto.Nome;
+                produto.Preco = dto.Preco;
+                produto.QuantidadeEstoque = dto.QuantidadeEstoque;
+                produto.FornecedorId = dto.FornecedorId;
+
+                _context.Produtos.Update(produto);
+                await _context.SaveChangesAsync();
+            };
+
         }
+
+
+
+
+
+
+
 
 
         public async Task<ProdutoDTO> CriarProdutoAsync(CriaProdutoDTO dto)
         {
+            // 1 - Verficar a existencia desse fornecedor no banco de dados
+
+            var fornecedorExistente = await _context.Fornecedores.FirstOrDefaultAsync(f => f.Id == dto.FornecedorId);
+
+            // 2 - Se não existir, interrompa o fluxo de forma amigável, informando o cliente da API sobre o erro
+            if (fornecedorExistente == null)
+            {
+                throw new ArgumentException("O fornecedor informado não existe.");
+            }
+
+
             var produto = new Produto()
             {
                 Nome = dto.Nome,

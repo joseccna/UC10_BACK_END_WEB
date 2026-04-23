@@ -8,7 +8,7 @@
         public DateOnly DataVencimento { get; set; }
         public DateOnly? DataPagamento { get; set; }
         public string Status { get; set; }
-
+        public int ClienteId { get; set; }
 
     }
 
@@ -19,6 +19,8 @@
         public DateOnly DataVencimento { get; set; }
         public DateOnly? DataPagamento { get; set; }
         public string Status { get; set; }
+        public int ClienteId { get; set; }
+
     }
 
     public class AtualizarContaReceberDTO
@@ -28,7 +30,9 @@
         public decimal Valor { get; set; }
         public DateOnly DataVencimento { get; set; }
         public DateOnly? DataPagamento { get; set; }
-        public string Status { get; set; }
+        public string Status { get; set; }  
+        public int ClienteId { get; set; }
+
     }
 
 }

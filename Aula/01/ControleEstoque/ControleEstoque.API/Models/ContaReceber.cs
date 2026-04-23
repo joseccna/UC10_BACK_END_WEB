@@ -25,5 +25,11 @@ namespace ControleEstoque.API.Models
         [Required, StringLength(20)]
         public string Status { get; set; } // Ex: Pendente, Pago, Atrasado
 
+        [Required]
+        public int ClienteId { get; set; } // Chave estrangeira para o cliente
+        public Cliente Cliente { get; set; } // Relação com o cliente
+
+
+
     }
 }
