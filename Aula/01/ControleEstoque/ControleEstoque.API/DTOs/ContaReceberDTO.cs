@@ -9,6 +9,9 @@
         public DateOnly? DataPagamento { get; set; }
         public string Status { get; set; }
         public int ClienteId { get; set; }
+        // adicionar informações do cliente, ClienteDTO ou apenas o nome do cliente
+        // no futuro.
+
 
     }
 

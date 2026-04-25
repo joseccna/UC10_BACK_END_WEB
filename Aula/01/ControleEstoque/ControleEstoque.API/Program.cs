@@ -23,6 +23,9 @@ builder.Services.AddScoped<IContaReceber, ContaReceberService>();
 
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
 
+builder.Services.AddScoped<IUsuarioService, UsuarioService>();
+
+
 
 
 // Add services to the container.
