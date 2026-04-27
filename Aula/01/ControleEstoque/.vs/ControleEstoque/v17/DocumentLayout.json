@@ -38,8 +38,7 @@
               "RelativeToolTip": "ControleEstoque.API\\Services\\IUsuarioService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T00:19:52.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T00:19:52.962Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "ControleEstoque.API\\DTOs\\UsuarioDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-25T00:13:33.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-25T00:13:33.256Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "ControleEstoque.API\\Controllers\\UsuariosController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAzwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T23:00:47.623Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-24T23:00:47.623Z"
             },
             {
               "$type": "Document",
@@ -75,7 +72,7 @@
               "RelativeDocumentMoniker": "ControleEstoque.API\\Services\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\jose.fncarvalho1\\Documents\\curso\\UC10_BACK_END_WEB\\Aula\\01\\ControleEstoque\\ControleEstoque.API\\Services\\UsuarioService.cs",
               "RelativeToolTip": "ControleEstoque.API\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAuwA0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-24T22:29:37.544Z",
               "EditorCaption": ""
