@@ -1,0 +1,15 @@
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\bin\Debug\net8.0\AulaLINQ.exe
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\bin\Debug\net8.0\AulaLINQ.deps.json
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\bin\Debug\net8.0\AulaLINQ.runtimeconfig.json
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\bin\Debug\net8.0\AulaLINQ.dll
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\bin\Debug\net8.0\AulaLINQ.pdb
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.AssemblyInfoInputs.cache
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.AssemblyInfo.cs
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.csproj.CoreCompileInputs.cache
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.sourcelink.json
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.dll
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\refint\AulaLINQ.dll
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.pdb
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\AulaLINQ.genruntimeconfig.cache
+C:\Users\jose.fncarvalho1\Documents\curso\UC10_BACK_END_WEB\Projetos\LINQ\AulaLINQ\AulaLINQ\obj\Debug\net8.0\ref\AulaLINQ.dll
